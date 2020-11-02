@@ -7,7 +7,7 @@ $(document).ready(function() {
     var studente = {
         'nome': 'Sara',
         'cognome': 'Bianchi',
-        'eta': '20',
+        'eta': 20,
     };
 
     for (var key in studente) {
@@ -20,17 +20,17 @@ $(document).ready(function() {
         {
             'nome': 'Luigi',
             'cognome': 'Bianchi',
-            'eta': '30',
+            'eta': 30,
         },
         {
             'nome': 'Mario',
             'cognome': 'Rossi',
-            'eta': '27',
+            'eta': 27,
         },
         {
             'nome': 'Anna',
             'cognome': 'Verdi',
-            'eta': '24',
+            'eta': 24,
         },
     ];
 
@@ -43,7 +43,7 @@ $(document).ready(function() {
     var studenteNuovo = {
         'nome' : prompt('Scrivi il tuo nome'),
         'cognome' : prompt('Scrivi il tuo cognome'),
-        'eta' : prompt('Quanti anni hai?'),
+        'eta' : parseInt(prompt('Quanti anni hai?')),
     };
     console.log(studenteNuovo);
     classe1.push(studenteNuovo);
